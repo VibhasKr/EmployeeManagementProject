@@ -23,7 +23,7 @@ int checkCount(int c){
 
 int checkEmpNo(int empNo,int maxEmpNo){
     if(empNo<101){
-        printf("Employee No entered is less than 101\nEmployee No must be greater than or equal to one and less than or equal to %d\n",maxEmpNo);
+        printf("Employee No entered is less than 101\nEmployee No must be greater than or equal to 101 and less than or equal to %d\n",maxEmpNo);
         printf("Please enter again with correct values\n");
         return 0;
     }
