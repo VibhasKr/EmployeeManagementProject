@@ -27,7 +27,7 @@ int checkEmpNo(int empNo,int maxEmpNo){
         printf("Please enter again with correct values\n");
         return 0;
     }
-    else if(empNo>150){
+    else if(empNo>maxEmpNo){
         printf("Employee No entered is more than 150\nEmployee No must be greater than or equal to one and less than or equal to %d\n",maxEmpNo);
         printf("Please enter again with correct values\n");
         return 0;
